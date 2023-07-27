@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bike</fullName>
+    <active>true</active>
+    <label>Bike</label>
+    <picklistValues>
+        <picklist>Make__c</picklist>
+        <values>
+            <fullName>Chevrolet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GMC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Honda</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hyundai</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Others</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Toyota</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>
