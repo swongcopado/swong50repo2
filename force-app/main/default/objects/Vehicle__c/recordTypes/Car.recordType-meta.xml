@@ -7,6 +7,14 @@
     <picklistValues>
         <picklist>Make__c</picklist>
         <values>
+            <fullName>Audi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BMW</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>Chevrolet</fullName>
             <default>false</default>
         </values>
@@ -24,6 +32,10 @@
         </values>
         <values>
             <fullName>Kia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mercedes</fullName>
             <default>false</default>
         </values>
         <values>
