@@ -45,6 +45,21 @@
                 <default>false</default>
                 <label>Toyota</label>
             </value>
+            <value>
+                <fullName>BMW</fullName>
+                <default>false</default>
+                <label>BMW</label>
+            </value>
+            <value>
+                <fullName>Mercedes</fullName>
+                <default>false</default>
+                <label>Mercedes</label>
+            </value>
+            <value>
+                <fullName>Audi</fullName>
+                <default>false</default>
+                <label>Audi</label>
+            </value>
         </valueSetDefinition>
     </valueSet>
 </CustomField>
