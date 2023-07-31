@@ -67,6 +67,9 @@
         <layout>Contact-Contact Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Fuel_Entry__c-Fuel Entry Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Travel_Log__c-Travel Log Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -85,6 +88,15 @@
         <recordType>Vehicle__c.Truck</recordType>
     </layoutAssignments>
     <loginHours n1:nil="true" />
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Fuel_Entry__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
