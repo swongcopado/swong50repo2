@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Profile xmlns="http://soap.sforce.com/2006/04/metadata"
-      xmlns:n1="http://www.w3.org/2001/XMLSchema-instance">
+<Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+    <classAccesses>
+        <apexClass>US3Utility</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>US3UtilityTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
     <custom>true</custom>
     <fieldPermissions>
         <editable>true</editable>
@@ -12,6 +19,9 @@
         <field>Vehicle__c.Purchase_Price__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <layoutAssignments>
+        <layout>Contact-Contact Layout</layout>
+    </layoutAssignments>
     <layoutAssignments>
         <layout>Vehicle__c-Vehicle Layout</layout>
     </layoutAssignments>
@@ -27,7 +37,6 @@
         <layout>Vehicle__c-Vehicle Layout</layout>
         <recordType>Vehicle__c.Truck</recordType>
     </layoutAssignments>
-    <loginHours n1:nil="true" />
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Vehicle__c.Bike</recordType>
