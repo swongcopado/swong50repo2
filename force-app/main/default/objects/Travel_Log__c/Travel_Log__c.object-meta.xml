@@ -143,25 +143,24 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <description>added for US4 deployment</description>
-    <enableActivities>true</enableActivities>
+    <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
     <enableLicensing>false</enableLicensing>
-    <enableReports>true</enableReports>
-    <enableSearch>true</enableSearch>
+    <enableReports>false</enableReports>
+    <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <externalSharingModel>Private</externalSharingModel>
-    <label>Vehicle</label>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <label>Travel Log</label>
     <nameField>
-        <displayFormat>VEH-{00000}</displayFormat>
-        <label>Vehicle ID</label>
+        <displayFormat>TL-{000000}</displayFormat>
+        <label>Travel Log ID</label>
         <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>Vehicles</pluralLabel>
+    <pluralLabel>Travel Logs</pluralLabel>
     <searchLayouts />
-    <sharingModel>ReadWrite</sharingModel>
+    <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

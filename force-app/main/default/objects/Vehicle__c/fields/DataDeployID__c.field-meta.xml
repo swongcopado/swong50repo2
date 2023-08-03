@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Model__c</fullName>
-    <externalId>false</externalId>
-    <inlineHelpText>Enter the Model of the vehicle</inlineHelpText>
-    <label>Model</label>
-    <length>20</length>
+    <fullName>DataDeployID__c</fullName>
+    <externalId>true</externalId>
+    <label>DataDeployID</label>
+    <length>100</length>
     <required>false</required>
     <trackTrending>false</trackTrending>
     <type>Text</type>

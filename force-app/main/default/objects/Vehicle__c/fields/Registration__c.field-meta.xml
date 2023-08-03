@@ -3,6 +3,7 @@
     <fullName>Registration__c</fullName>
     <caseSensitive>false</caseSensitive>
     <externalId>false</externalId>
+    <inlineHelpText>Provide the vehicle registration</inlineHelpText>
     <label>Registration</label>
     <length>15</length>
     <required>true</required>
