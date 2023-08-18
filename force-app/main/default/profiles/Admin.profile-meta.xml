@@ -42,6 +42,16 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>US16Object__c.US16Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>US16Object__c.US16Text__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Vehicle__c.DataDeployID__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -71,6 +81,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Travel_Log__c-Travel Log Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>US16Object__c-US16Object Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Vehicle__c-Vehicle Layout</layout>
@@ -104,6 +117,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>Travel_Log__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>US16Object__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
