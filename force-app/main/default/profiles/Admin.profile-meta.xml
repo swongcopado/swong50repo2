@@ -37,6 +37,16 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Story19__c.Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Story19__c.Description__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Travel_Log__c.DataDeployID__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -98,6 +108,9 @@
         <layout>Fuel_Entry__c-Fuel Entry Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Story19__c-Story19 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Travel_Log__c-Travel Log Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -135,6 +148,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>Fuel_Entry__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Story19__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
