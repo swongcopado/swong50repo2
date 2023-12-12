@@ -21,6 +21,31 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Demo20__c.Demo20_Field_1__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Demo20__c.Demo20_Field_2__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Demo20__c.Demo20_Field_3__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Story19__c.Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Story19__c.Description__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Travel_Log__c.DataDeployID__c</field>
         <readable>true</readable>
@@ -67,6 +92,12 @@
         <layout>Contact-Contact Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Demo20__c-Demo20 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Story19__c-Story19 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Travel_Log__c-Travel Log Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -85,6 +116,24 @@
         <recordType>Vehicle__c.Truck</recordType>
     </layoutAssignments>
     <loginHours n1:nil="true" />
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Demo20__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Story19__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
@@ -138,6 +187,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>AddDirectMessageMembers</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>AllowObjectDetectionTraining</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
