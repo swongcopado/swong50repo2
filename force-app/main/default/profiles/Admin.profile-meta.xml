@@ -2,11 +2,11 @@
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata"
       xmlns:n1="http://www.w3.org/2001/XMLSchema-instance">
     <classAccesses>
-        <apexClass>US3Utility</apexClass>
+        <apexClass>US3UtilityTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>US3UtilityTest</apexClass>
+        <apexClass>US3Utility</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <custom>false</custom>
@@ -105,6 +105,9 @@
         <layout>Demo20__c-Demo20 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Fuel_Entry__c-Fuel Entry Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Story19__c-Story19 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -136,6 +139,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>Demo20__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Fuel_Entry__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -180,13 +192,13 @@
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
-        <default>true</default>
-        <recordType>Vehicle__c.Car</recordType>
+        <default>false</default>
+        <recordType>Vehicle__c.Truck</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>Vehicle__c.Truck</recordType>
+        <default>true</default>
+        <recordType>Vehicle__c.Car</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
     <tabVisibilities>
@@ -209,10 +221,6 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>AddDirectMessageMembers</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>AllowObjectDetectionTraining</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
