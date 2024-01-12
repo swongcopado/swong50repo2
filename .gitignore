@@ -45,3 +45,4 @@ $RECYCLE.BIN/
 **/venv/
 
 .copado
+.vscode/settings.json
