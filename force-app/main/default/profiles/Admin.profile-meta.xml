@@ -55,6 +55,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Story38__c.Description__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Story39__c.Date__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -124,6 +129,9 @@
         <layout>Story19__c-Story19 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Story38__c-Story38 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Story39__c-Story39 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -177,6 +185,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>Story19__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Story38__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
