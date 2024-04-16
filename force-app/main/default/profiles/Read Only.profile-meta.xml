@@ -8,6 +8,16 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Story53_Object__c.Amount__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Story53_Object__c.Rating__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Travel_Log__c.DataDeployID__c</field>
         <readable>true</readable>
@@ -49,6 +59,9 @@
     </fieldPermissions>
     <layoutAssignments>
         <layout>Contact-Contact Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Story53_Object__c-Story53 Object Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Travel_Log__c-Travel Log Layout</layout>
