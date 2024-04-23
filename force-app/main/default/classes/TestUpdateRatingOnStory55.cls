@@ -20,7 +20,8 @@ private class TestUpdateRatingOnStory55 {
         // Assertions to verify that the Rating field is set correctly
         for (Story55__c story : insertedStories) {
             if (story.Amount__c == 50000) {
-                System.assertEquals('Bronze', story.Rating__c, 'The rating should be Bronze for amounts less than 100,000');
+                // System.assertEquals('Bronze', story.Rating__c, 'The rating should be Bronze for amounts less than 100,000');
+                System.assertEquals('Bronze_FailOnPurpose', story.Rating__c, 'The rating should be Bronze for amounts less than 100,000');
             } else if (story.Amount__c == 250000) {
                 System.assertEquals('Silver', story.Rating__c, 'The rating should be Silver for amounts between 100,000 and 500,000');
             } else if (story.Amount__c == 600000) {
