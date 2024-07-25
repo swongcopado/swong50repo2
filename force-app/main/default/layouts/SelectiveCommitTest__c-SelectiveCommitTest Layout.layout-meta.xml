@@ -18,7 +18,6 @@
                 <behavior>Edit</behavior>
                 <field>Field_One__c</field>
             </layoutItems>
-
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
