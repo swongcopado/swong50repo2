@@ -55,6 +55,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>SelectiveCommitTest__c.Field_Two__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Story19__c.Date__c</field>
         <readable>true</readable>
     </fieldPermissions>
