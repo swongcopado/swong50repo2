@@ -83,7 +83,15 @@
                 <identifier>flowruntime_interview</identifier>
             </componentInstance>
         </itemInstances>
-
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>title</name>
+                </componentInstanceProperties>
+                <componentName>runtime_mobilesapp:launchPadTileList</componentName>
+                <identifier>runtime_mobilesapp_launchPadTileList</identifier>
+            </componentInstance>
+        </itemInstances>
         <name>right</name>
         <type>Region</type>
     </flexiPageRegions>
