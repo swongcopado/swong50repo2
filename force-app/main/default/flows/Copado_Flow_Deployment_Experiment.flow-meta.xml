@@ -8,6 +8,9 @@
         <locationY>323</locationY>
         <actionName>NewNote</actionName>
         <actionType>quickAction</actionType>
+        <connector>
+            <targetReference>Add_Task</targetReference>
+        </connector>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
         <inputParameters>
             <name>Title</name>
@@ -24,7 +27,25 @@
         <nameSegment>NewNote</nameSegment>
         <versionSegment>1</versionSegment>
     </actionCalls>
+    <actionCalls>
+        <name>Add_Task</name>
+        <label>Add Task</label>
+        <locationX>176</locationX>
+        <locationY>431</locationY>
+        <actionName>FeedItem.NewTaskFromFeedItem</actionName>
+        <actionType>quickAction</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>contextId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>FeedItem.NewTaskFromFeedItem</nameSegment>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
     <apiVersion>61.0</apiVersion>
+    <description>A newer version</description>
     <environments>Default</environments>
     <interviewLabel>Copado Flow Deployment Experiment {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Copado Flow Deployment Experiment</label>
@@ -57,5 +78,5 @@
         <recordTriggerType>Create</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Active</status>
+    <status>Draft</status>
 </Flow>
